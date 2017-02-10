@@ -1,0 +1,41 @@
+// commands_eng.txt ver 0.1
+
+git init
+ - reset the directory. 
+
+git clone
+ - e.g.) git clone https://github.com/AliceInSourcecode/github_tutorial.git
+ - download the copy of the target repository
+
+git config
+
+git help
+ - use this command to check 21 git most popular commands. try this commands like 'git help init' to see detail
+
+git status
+ - check the status of repository.
+
+git add
+ - // first step to upload new change
+ - this command won't add new change to your repository but the Git will notice the change.
+
+git commit
+ - e.g.) git commit -m "comment blah blah blah"
+ - // second step to upload new change
+ - this command will make a snapshot of changes but still not uploading changes.
+
+git push
+ - e.g.) git push origin master
+ - // last step to upload new change
+ - this command will upload new change.
+
+git branch
+
+git checkout
+
+git merge
+
+git push
+
+git pull
+ - download any change from repository when you working on your local computer and you want the newest version of the repository
