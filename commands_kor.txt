@@ -1,0 +1,41 @@
+// commands_kor.txt ver 0.1
+
+git init
+ - 저장소 리셋 
+
+git clone
+ - e.g.) git clone https://github.com/AliceInSourcecode/github_tutorial.git
+ - 목표 저장소의 사본을 다운로드한다
+
+git add
+ - // first step to upload new change
+ - // 변경사항을 업로드 하기 위한 첫번째 스텝
+ - 이 명령어는 변경사항을 깃 저장소에 올리진 않지만 깃이 변경사항을 '주목'할 것이다.
+git commit
+ - e.g.) git commit -m "comment blah blah blah"
+ - // 변경사항을 업로드 하기 위한 두번째 스텝
+ - 이 명령어는 변경사항의 스냅샷을 만든다 하지만 여전히 깃 저장소에 업로드하진 않는다
+
+git push
+ - e.g.) git push origin master
+ - // 변경사항을 업로드 하기 위한 마지막 스텝
+ - 이 명령어는 commit 한 변경사항을 올릴것이다.
+
+git pull
+ - 이 명령어는 로컬에서 작업할 떄 깃허브 저장소에서 변경사항을 다운로드한다.
+git config
+
+git help
+ - use this command to check 21 git most popular commands. try this commands like 'git help init' to see detail
+
+git status
+ - check the status of repository.
+
+git branch
+
+git checkout
+
+git merge
+
+git push
+
